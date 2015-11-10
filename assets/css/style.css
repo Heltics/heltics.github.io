@@ -145,7 +145,7 @@ form.signup input.form-control:focus {
     background-size: cover;
 }
 #wrapper>.container{
-  padding: 10% 5px;
+  padding: 5% 0px;
 }
 .heading {
   margin-top: 60px;
@@ -164,7 +164,26 @@ h4.subtitle {
 	color: #fff;
 	font-size: 20px;
 }
-
+.soc-icons>ul>li{
+  display: inline;
+}
+.soc-icons>ul>li>a {
+  border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+.soc-icons>ul>li>a>i {
+    line-height: 0;
+    color: #fff;
+    position: relative;
+    top: -9px;
+    right: 4px;
+}
 /* countdown */
 #countdown {
 	font-size: 48px;
