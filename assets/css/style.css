@@ -124,7 +124,7 @@ form.signup input.form-control:focus {
 
 #wrapper {
 	text-align: center;
-	padding: 50px 0;
+/*	padding: 50px 0;*/
 	background: url(../img/main-bg.jpg) no-repeat center top;
 	background-attachment: relative;
 	background-position: center center;
@@ -172,11 +172,11 @@ h4.subtitle {
   display: inline-block;
 }
 .soc-icons>ul>li>a {
-  border: 2px solid #fff;
+  /*border: 2px solid #fff;*/
     background-color: transparent;
     color: #fff;
     border-radius: 50%;
-    width: 35px;
+    width: 50px;
     height: 35px;
     margin-top: 8px;
     margin-left: 3px;
@@ -212,4 +212,9 @@ p.copyright {
   form.signup input{
     width: 100%;  
   }
+}
+@media (min-width: 1680px){
+  #wrapper>.container{
+  padding: 10% 0px;
+}
 }
